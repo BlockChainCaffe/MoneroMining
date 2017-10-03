@@ -23,7 +23,7 @@ PRGDIR=$(pwd)
 # RUN-SCRIPT
 
 cat > ~/mine.sh << EOF
-i#!/bin/bash
+#!/bin/bash
 cd $PRGDIR
 sudo ./minerd -a cryptonight -o stratum+tcp://pool.minexmr.com:4444 -u $WALLET_ADDRESS -p x -t $CPU
 EOF
